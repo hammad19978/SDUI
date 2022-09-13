@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-// ignore: camel_case_types
 class SdUi_Screen extends StatefulWidget {
   const SdUi_Screen({Key? key}) : super(key: key);
 
@@ -8,13 +7,12 @@ class SdUi_Screen extends StatefulWidget {
   State<SdUi_Screen> createState() => _SdUi_ScreenState();
 }
 
-// ignore: camel_case_types
 class _SdUi_ScreenState extends State<SdUi_Screen> {
   List<Map<String, dynamic>> serverUi = [
     {'type': 'SizedBox', 'height': 25.0},
-    {'type': 'Image', 'url': 'assets/logo.png'},
+    {'type': 'Image', 'url': 'assets/logo1.png'},
     {'type': 'SizedBox', 'height': 35.0},
-    {'type': 'MaterialButton', 'hint': 'Submit'},
+    {'type': 'MaterialButton', 'hint': 'LOGIN'},
   ];
   @override
   Widget build(BuildContext context) {

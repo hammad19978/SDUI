@@ -1,3 +1,4 @@
+import 'package:comments_reply/auction.dart';
 import 'package:comments_reply/provider/commentProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: SdUi_Screen(),
+        home: Auction(),
       ),
     );
   }
